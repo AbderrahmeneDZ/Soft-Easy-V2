@@ -23,15 +23,19 @@ html, body{
     background-repeat: no-repeat;
 }
 .carousel-item-1{
-    background-image: url('./images/carousel-image-1.jpg');
+    background-image: url('./images/carousel-web.jpg');
 }
 
 .carousel-item-2{
-    background-image: url('./images/carousel-image-2.jpg');
+    background-image: url('./images/carousel-mobile.jpg');
 }
 
 .carousel-item-3{
-    background-image: url('./images/carousel-image-3.jpg');
+    background-image: url('./images/carousel-desktop.jpg');
+}
+
+.carousel-caption{
+    background-color: #607D8B70;
 }
 
 @media only screen and (max-width: 600px){
