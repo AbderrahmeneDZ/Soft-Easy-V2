@@ -36,6 +36,9 @@ html, body{
 
 .carousel-caption{
     background-color: #607D8B70;
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
 }
 
 @media only screen and (max-width: 600px){
