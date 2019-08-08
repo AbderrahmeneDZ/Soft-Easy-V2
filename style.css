@@ -16,3 +16,32 @@ html, body{
     height: 120px;
     width: auto;
 }
+
+.carousel-item{
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-item-1{
+    background-image: url('./images/carousel-image-1.jpg');
+}
+
+.carousel-item-2{
+    background-image: url('./images/carousel-image-2.jpg');
+}
+
+.carousel-item-3{
+    background-image: url('./images/carousel-image-3.jpg');
+}
+
+@media only screen and (max-width: 600px){
+    .carousel-item{
+        height: 400px;
+    }
+    .display-3{
+        font-size: 3rem;
+    }
+    .display-4{
+        font-size: 2rem;
+    }
+}
