@@ -8,7 +8,7 @@ html, body{
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.card:hover {
+.card:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -34,8 +34,17 @@ html, body{
     background-image: url('./images/carousel-desktop.jpg');
 }
 
-.carousel-caption{
+.check-icon{
+    color: #607D8B;
+    vertical-align: middle;
+}
+
+.caption-container{
     background-color: #607D8B70;
+    height: 100%;
+    widows: 100%;
+}
+.carousel-caption{
     transform: translateY(-50%);
     bottom: 0;
     top: 50%;
@@ -50,5 +59,8 @@ html, body{
     }
     .display-4{
         font-size: 2rem;
+    }
+    .display-2{
+        font-size: 4rem;
     }
 }
