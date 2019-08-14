@@ -50,6 +50,10 @@ html, body{
     top: 50%;
 }
 
+footer{
+    background-color: #607D8B;
+}
+
 @media only screen and (max-width: 600px){
     .carousel-item{
         height: 400px;
